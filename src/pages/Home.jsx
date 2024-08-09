@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "../components/Banner";
 import Services from "./Services";
+import Achievements from "./Achievements";
 
 const Home = () => {
   return (
@@ -10,6 +11,9 @@ const Home = () => {
       </div>
       <div className="bg-[#6040ffd6] text-white">
         <Services></Services>
+      </div>
+      <div className="bg-gray-600 text-white">
+        <Achievements></Achievements>
       </div>
     </div>
   );
