@@ -17,7 +17,7 @@ const ServiceCart = () => {
           <h3 className="text-xl font-semibold pb-2 text-start">
             Brand Identity
           </h3>
-          <p className="opacity-60 w-48 text-start">
+          <p className="opacity-40 w-48 text-start">
             There live the blind texts. Separated they live in Bookmarksgrove
             right
           </p>
@@ -31,7 +31,7 @@ const ServiceCart = () => {
         </div>
         <div className="pl-3">
           <h3 className="text-xl font-semibold pb-2 text-start">Marketing</h3>
-          <p className="opacity-60 w-48 text-start">
+          <p className="opacity-40 w-48 text-start">
             Far far away, behind the word mountains, far from the countries
             Vokalia
           </p>
@@ -45,7 +45,7 @@ const ServiceCart = () => {
         </div>
         <div className="pl-3">
           <h3 className="text-xl font-semibold pb-2 text-start">Strategy</h3>
-          <p className="opacity-60 w-48 text-start">
+          <p className="opacity-40 w-48 text-start">
             A small river named Duden flows by their place and supplies it with
             the necessary
           </p>
@@ -59,7 +59,7 @@ const ServiceCart = () => {
         </div>
         <div className="pl-3">
           <h3 className="text-xl font-semibold pb-2 text-start">Web Design</h3>
-          <p className="opacity-60 w-48 text-start">
+          <p className="opacity-40 w-48 text-start">
             It is a paradisematic country, in which roasted parts of sentences
           </p>
         </div>
@@ -72,7 +72,7 @@ const ServiceCart = () => {
         </div>
         <div className="pl-3">
           <h3 className="text-xl font-semibold pb-2 text-start">UI & UX</h3>
-          <p className="opacity-60 w-48 text-start">
+          <p className="opacity-40 w-48 text-start">
             Fly into your mouth even the all-powerful Pointing on that
           </p>
         </div>
@@ -87,7 +87,7 @@ const ServiceCart = () => {
           <h3 className="text-xl font-semibold pb-2 text-start">
             Graphic Design
           </h3>
-          <p className="opacity-60 w-48 text-start">
+          <p className="opacity-40 w-48 text-start">
             Has no control about the blind texts it is an almost unorthographic
             life
           </p>

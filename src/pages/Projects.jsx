@@ -1,9 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
+import ProjectsImage from "./ProjectsImage";
 
 const Projects = () => {
+  const images = [
+    { src: "../../public/Images/portfolio1-1.jpg", name: "Coffee Cup" },
+    { src: "../../public/Images/portfolio11-1.jpg", name: "Paint" },
+    { src: "../../public/Images/portfolio10-1.jpg", name: "Iconic Magazine" },
+    { src: "../../public/Images/portfolio7-1.jpg", name: "Shopping Bag" },
+    { src: "../../public/Images/portfolio5.jpg", name: "Parcel Box" },
+    { src: "../../public/Images/portfolio6-1.jpg", name: "Print House" },
+  ];
+
   return (
-    <div>
-      <h2>projects</h2>
+    <div className="max-w-6xl mx-auto pb-20 pt-10">
+      <div className="text-center">
+        <h2 className="text-3xl md:text-6xl font-bold uppercase">
+          Our Projects
+        </h2>
+      </div>
+      <div className="grid grid-cols-2 md:grid-cols-3 mt-20 gap-5 justify-center px-4">
+        {images.map((img, index) => (
+          <ProjectsImage
+            key={index}
+            src={img.src}
+            name={img.name}
+          ></ProjectsImage>
+        ))}
+      </div>
     </div>
   );
 };

@@ -2,7 +2,7 @@ import React from "react";
 
 const Achievements = () => {
   return (
-    <div className="max-w-6xl mx-auto text-center py-28">
+    <div className="max-w-6xl mx-auto text-center pt-28 pb-28">
       <div>
         <h2 className="text-3xl md:text-5xl uppercase font-bold">
           Achievements
@@ -29,6 +29,11 @@ const Achievements = () => {
           <h1 className="text-8xl font-bold pb-8">12</h1>
           <p className="text-2xl pb-1">Design Pick</p>
           <p className="text-green-400">Reviews</p>
+        </div>
+        <div>
+          <h1 className="text-8xl font-bold pb-8">19</h1>
+          <p className="text-2xl pb-1">Omma</p>
+          <p className="text-green-400">Winnings</p>
         </div>
       </div>
     </div>
