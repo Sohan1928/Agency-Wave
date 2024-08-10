@@ -3,6 +3,8 @@ import Banner from "../components/Banner";
 import Services from "./Services";
 import Achievements from "./Achievements";
 import Projects from "./Projects";
+import Master from "../layouts/Master";
+import Team from "./Team";
 
 const Home = () => {
   return (
@@ -18,6 +20,12 @@ const Home = () => {
       </div>
       <div className="bg-gray-600 text-white">
         <Achievements></Achievements>
+      </div>
+      <div className="py-20">
+        <Master></Master>
+      </div>
+      <div>
+        <Team></Team>
       </div>
     </div>
   );
