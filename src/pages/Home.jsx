@@ -4,7 +4,12 @@ import Services from "./Services";
 import Achievements from "./Achievements";
 import Projects from "./Projects";
 import Master from "../layouts/Master";
-import Team from "./Team";
+import SingleTeam from "./SingleTeam";
+import Clients from "../components/Clients";
+import SpecialClients from "../components/SpecialClients";
+import Awards from "../components/Awards";
+import Faq from "../components/Faq";
+import Contacts from "./Contacts";
 
 const Home = () => {
   return (
@@ -24,9 +29,14 @@ const Home = () => {
       <div className="py-20">
         <Master></Master>
       </div>
-      <div>
-        <Team></Team>
+      <SingleTeam></SingleTeam>
+      <Clients></Clients>
+      <SpecialClients></SpecialClients>
+      <div className="bg-[#6040ffd6]">
+        <Faq></Faq>
+        <Awards></Awards>
       </div>
+      <Contacts></Contacts>
     </div>
   );
 };
