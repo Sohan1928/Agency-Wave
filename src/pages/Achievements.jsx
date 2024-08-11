@@ -7,12 +7,26 @@ const Achievements = () => {
   return (
     <div className="max-w-6xl mx-auto text-center pt-28 pb-28">
       <div>
-        <h2 className="text-3xl md:text-5xl uppercase font-bold">
+        <h2
+          data-aos="fade-right"
+          data-aos-duration="2200"
+          className="text-3xl md:text-5xl uppercase font-bold"
+        >
           Achievements
         </h2>
-        <p className="text-xl pt-2">We are proud of</p>
+        <p
+          data-aos="fade-left"
+          data-aos-duration="2200"
+          className="text-xl pt-2"
+        >
+          We are proud of
+        </p>
       </div>
-      <div className="pt-16 space-y-10 md:flex md:space-y-0 justify-around">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="2400"
+        className="pt-16 space-y-10 md:flex md:space-y-0 justify-around"
+      >
         <ScrollTrigger
           onEnter={() => setCounterOn(true)}
           onExit={() => setCounterOn(false)}

@@ -5,12 +5,20 @@ const SingleTeam = () => {
   return (
     <div className="max-w-6xl mx-auto px-2 mb-20">
       <div className="pt-8 pb-16">
-        <h1 className="text-4xl md:text-6xl font-bold uppercase text-center">
+        <h1
+          data-aos="fade-right"
+          data-aos-duration="1200"
+          className="text-4xl md:text-6xl font-bold uppercase text-center"
+        >
           Our Partner
         </h1>
       </div>
       <div className="md:flex justify-center space-y-10 md:space-y-0 gap-8">
-        <div className="flex mx-2 md:mx-0 border rounded-lg shadow-xl gap-8 items-center">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="1800"
+          className="flex mx-2 md:mx-0 border rounded-lg shadow-xl gap-8 items-center"
+        >
           <div className="">
             <img
               className="h-64 md:h-80 rounded-l-lg bg-[#ffd1d7]"
@@ -27,7 +35,11 @@ const SingleTeam = () => {
             </p>
           </div>
         </div>
-        <div className="flex mx-2 md:mx-0 border rounded-lg shadow-xl gap-8 items-center">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="1800"
+          className="flex mx-2 md:mx-0 border rounded-lg shadow-xl gap-8 items-center"
+        >
           <div className="">
             <img
               className="h-64 md:h-80 rounded-l-lg bg-[#ff445d]"
@@ -47,7 +59,11 @@ const SingleTeam = () => {
       </div>
       <div className="text-center my-10">
         <Link to="/team">
-          <button className="bg-teal-400 px-4 py-3 rounded-xl text-white font-bold">
+          <button
+            data-aos="fade-up"
+            data-aos-duration="2200"
+            className="bg-teal-400 px-4 py-3 rounded-xl text-white font-bold"
+          >
             Meet the teem
           </button>
         </Link>

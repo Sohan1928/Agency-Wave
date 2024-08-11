@@ -5,7 +5,7 @@ const Faq = () => {
   return (
     <div className="px-4 max-w-6xl mx-auto">
       <div className="lg:flex py-10 px-4 justify-around items-center">
-        <div className="">
+        <div data-aos="fade-right" data-aos-duration="2200" className="">
           <h1 className="text-3xl lg:text-5xl font-bold pb-4 text-white">
             Any Questions? <br /> We have Answers!
           </h1>
@@ -18,7 +18,7 @@ const Faq = () => {
             </button>
           </Link>
         </div>
-        <div>
+        <div data-aos="fade-left" data-aos-duration="2200">
           <div className="collapse collapse-arrow">
             <input type="radio" name="my-accordion-2" defaultChecked />
             <div className="collapse-title text-xl text-[#ffd60a] font-medium">

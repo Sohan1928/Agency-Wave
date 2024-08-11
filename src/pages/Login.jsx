@@ -46,10 +46,19 @@ const Login = () => {
       <div className="hero min-h-screen text-white">
         <div className="hero-content flex">
           <div className="">
-            <img src="login.png" alt="" />
+            <img
+              data-aos="fade-right"
+              data-aos-duration="1600"
+              src="login.png"
+              alt=""
+            />
           </div>
 
-          <div className=" login-back-color w-full items-center max-w-sm shrink-0 shadow-2xl">
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1600"
+            className=" login-back-color w-full items-center max-w-sm shrink-0 shadow-2xl"
+          >
             <form onSubmit={handleLogin} className="card-body">
               <div className="mt-3 mx-auto text-white">
                 <h1 className="text-2xl font-bold text-center">Please Login</h1>

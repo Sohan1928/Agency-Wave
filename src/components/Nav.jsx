@@ -5,11 +5,23 @@ import "./Nav.css";
 const Nav = () => {
   const NavLinks = (
     <>
-      <nav className="md:flex space-x-4 font-semibold items-center h-18 sticky top-0">
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/projects">Projects</NavLink>
-        <NavLink to="/team">Team</NavLink>
-        <NavLink to="/contacts">Contacts</NavLink>
+      <nav
+        data-aos="fade-up"
+        data-aos-duration="1600"
+        className="md:flex space-x-4 font-semibold items-center h-18 sticky top-0"
+      >
+        <NavLink data-aos="fade-up" data-aos-duration="1600" to="/">
+          Home
+        </NavLink>
+        <NavLink data-aos="fade-up" data-aos-duration="1800" to="/projects">
+          Projects
+        </NavLink>
+        <NavLink data-aos="fade-up" data-aos-duration="2000" to="/team">
+          Team
+        </NavLink>
+        <NavLink data-aos="fade-up" data-aos-duration="2200" to="/contacts">
+          Contacts
+        </NavLink>
       </nav>
     </>
   );
@@ -44,6 +56,8 @@ const Nav = () => {
           </div>
           <Link
             to="/"
+            data-aos="fade-up"
+            data-aos-duration="1000"
             className="text-2xl md:text-4xl py-2 font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-orange-600"
           >
             AgencyWave
@@ -54,7 +68,11 @@ const Nav = () => {
         </div>
         <div className="navbar-end">
           <Link to="/signUp">
-            <button className="bg-gradient-to-r from-orange-400 to-orange-600 py-2 px-4 text-white font-semibold rounded-md">
+            <button
+              data-aos="fade-up"
+              data-aos-duration="2400"
+              className="bg-gradient-to-r from-orange-400 to-orange-600 py-2 px-4 text-white font-semibold rounded-md"
+            >
               SignUp
             </button>
           </Link>

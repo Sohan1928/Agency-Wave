@@ -3,7 +3,11 @@ import Marquee from "react-fast-marquee";
 
 const ClientsSlider = () => {
   return (
-    <div className="mx-2 md:mx-16 mt-10 items-center justify-center md:px-56 py-36 shadow-2xl rounded-xl">
+    <div
+      data-aos="zoom-in"
+      data-aos-duration="2200"
+      className="mx-2 md:mx-16 mt-10 items-center justify-center md:px-56 py-36 shadow-2xl rounded-xl"
+    >
       <Marquee pauseOnHover={true}>
         <div className="flex gap-8">
           <div className="justify-center text-center">

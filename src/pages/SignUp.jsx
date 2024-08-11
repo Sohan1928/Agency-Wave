@@ -45,11 +45,20 @@ const SignUp = () => {
     <div className="bg-[#6040ffd6] my-10">
       <div className="max-w-6xl mx-auto hero min-h-screen text-white">
         <div className="hero-content flex">
-          <div className="">
-            <img src="login.png" alt="" />
+          <div>
+            <img
+              data-aos="fade-right"
+              data-aos-duration="1600"
+              src="login.png"
+              alt=""
+            />
           </div>
 
-          <div className="login-back-color w-full items-center max-w-sm shrink-0 shadow-2xl">
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1600"
+            className="login-back-color w-full items-center max-w-sm shrink-0 shadow-2xl"
+          >
             <form onSubmit={handleSignUp} className="card-body">
               <div className="mt-3 mx-auto text-white">
                 <h1 className="text-2xl font-bold">Sign up for an account</h1>

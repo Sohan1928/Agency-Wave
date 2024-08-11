@@ -4,6 +4,8 @@ const ProjectsImage = ({ src, name }) => {
   const [hovered, setHovered] = useState(false);
   return (
     <div
+      data-aos="zoom-in"
+      data-aos-duration="2000"
       className="image-container"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}

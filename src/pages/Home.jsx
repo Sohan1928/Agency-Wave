@@ -10,10 +10,14 @@ import SpecialClients from "../components/SpecialClients";
 import Awards from "../components/Awards";
 import Faq from "../components/Faq";
 import Contacts from "./Contacts";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 
 const Home = () => {
   return (
-    <div>
+    <div className="delete_extra-space">
       <div className="max-w-6xl mx-auto">
         <Banner></Banner>
       </div>
