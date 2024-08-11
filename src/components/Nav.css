@@ -1,5 +1,5 @@
 nav a.active {
-  color: rgba(64, 121, 255, 0.887);
+  color: orange;
   padding: 5px;
   border-radius: 8px;
 }

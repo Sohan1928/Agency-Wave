@@ -5,14 +5,14 @@ import { RiDoubleQuotesL } from "react-icons/ri";
 
 const SpecialClients = () => {
   return (
-    <div className="max-w-6xl mx-auto pb-24">
+    <div className="max-w-6xl mx-auto pb-24 ">
       <Marquee pauseOnHover={true}>
         <div className="flex gap-3 pt-6">
           <div className="w-72 ml-3 bg-teal-400 rounded-xl">
             <div className="p-3 divide-y divide-blue-200">
               <div>
                 <div className="flex items-center justify-between pb-3">
-                  <h4 className="bg-[#394145] rounded-full p-1 items-center text-center justify-center">
+                  <h4 className="bg-[#e17f00] rounded-full p-1 items-center text-center justify-center">
                     <RiDoubleQuotesL />
                   </h4>
                   <p className="flex items-center gap-1 pt-2 text-[#e17f00]">
@@ -42,7 +42,7 @@ const SpecialClients = () => {
             <div className="p-3 divide-y divide-blue-200">
               <div>
                 <div className="flex items-center justify-between pb-3">
-                  <h4 className="bg-[#394145] rounded-full p-1 items-center text-center justify-center">
+                  <h4 className="bg-[#e17f00] rounded-full p-1 items-center text-center justify-center">
                     <RiDoubleQuotesL />
                   </h4>
                   <p className="flex items-center gap-1 pt-2 text-[#e17f00]">
@@ -71,7 +71,7 @@ const SpecialClients = () => {
             <div className="p-3 divide-y divide-blue-200">
               <div>
                 <div className="flex items-center justify-between pb-3">
-                  <h4 className="bg-[#394145] rounded-full p-1 items-center text-center justify-center">
+                  <h4 className="bg-[#e17f00] rounded-full p-1 items-center text-center justify-center">
                     <RiDoubleQuotesL />
                   </h4>
                   <p className="flex items-center gap-1 pt-2 text-[#e17f00]">
@@ -101,7 +101,7 @@ const SpecialClients = () => {
             <div className="p-3 divide-y divide-blue-200">
               <div>
                 <div className="flex items-center justify-between pb-3">
-                  <h4 className="bg-[#394145] rounded-full p-1 items-center text-center justify-center">
+                  <h4 className="bg-[#e17f00] rounded-full p-1 items-center text-center justify-center">
                     <RiDoubleQuotesL />
                   </h4>
                   <p className="flex items-center gap-1 pt-2 text-[#e17f00]">
@@ -131,7 +131,7 @@ const SpecialClients = () => {
             <div className="p-3 divide-y divide-blue-200">
               <div>
                 <div className="flex items-center justify-between pb-3">
-                  <h4 className="bg-[#394145] rounded-full p-1 items-center text-center justify-center">
+                  <h4 className="bg-[#e17f00] rounded-full p-1 items-center text-center justify-center">
                     <RiDoubleQuotesL />
                   </h4>
                   <p className="flex items-center gap-1 pt-2 text-[#e17f00]">

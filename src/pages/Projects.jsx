@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ProjectsImage from "./ProjectsImage";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   const images = [
@@ -26,6 +27,13 @@ const Projects = () => {
             name={img.name}
           ></ProjectsImage>
         ))}
+      </div>
+      <div className="text-center items-center py-10 text-white font-bold">
+        <Link to="/projects">
+          <button className="bg-orange-500 px-4 py-3 rounded-xl">
+            View All Projects
+          </button>
+        </Link>
       </div>
     </div>
   );

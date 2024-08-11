@@ -7,7 +7,7 @@ const Contacts = () => {
         <h1 className="text-3xl pt-6 md:text-5xl text-white font-bold pb-10 text-center items-center uppercase">
           Contact Us
         </h1>
-        <div className="md:flex space-x-6 py-10 text-white px-4 justify-around ">
+        <div className="lg:flex space-x-6 py-10 text-white px-4 justify-around ">
           <div className="">
             <h1 className="text-3xl mb-4 lg:text-5xl font-bold pb-4">
               We love to collab with, Let’s do great together!

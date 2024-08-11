@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div className="space-y-5 items-center my-4 md:flex">
       <div>
-        <h2 className="text-6xl text-center md:text-left md:text-8xl font-extrabold items-center">
+        <h2 className="text-6xl px-3 text-center md:text-left md:text-8xl font-extrabold items-center">
           Creative Agency
         </h2>
       </div>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const SingleTeam = () => {
   return (
-    <div className="max-w-6xl mx-auto mb-20">
+    <div className="max-w-6xl mx-auto px-2 mb-20">
       <div className="pt-8 pb-16">
         <h1 className="text-4xl md:text-6xl font-bold uppercase text-center">
           Our Partner

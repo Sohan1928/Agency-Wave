@@ -5,7 +5,7 @@ import "./Nav.css";
 const Nav = () => {
   const NavLinks = (
     <>
-      <nav className="md:flex space-x-4 font-semibold items-center text-lg h-18 sticky top-0">
+      <nav className="md:flex space-x-4 font-semibold items-center h-18 sticky top-0">
         <NavLink to="/">Home</NavLink>
         <NavLink to="/projects">Projects</NavLink>
         <NavLink to="/team">Team</NavLink>
@@ -37,14 +37,14 @@ const Nav = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-64 bg-orange-100 p-2 shadow"
             >
               {NavLinks}
             </ul>
           </div>
           <Link
             to="/"
-            className="text-2xl md:text-4xl py-2 font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-violet-700"
+            className="text-2xl md:text-4xl py-2 font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-orange-600"
           >
             AgencyWave
           </Link>
@@ -53,9 +53,11 @@ const Nav = () => {
           <ul className="menu menu-vertical px-1">{NavLinks}</ul>
         </div>
         <div className="navbar-end">
-          <button className="bg-gradient-to-r from-blue-600 to-violet-700 py-2 px-4 text-white font-semibold rounded-md">
-            Register
-          </button>
+          <Link to="/signUp">
+            <button className="bg-gradient-to-r from-orange-400 to-orange-600 py-2 px-4 text-white font-semibold rounded-md">
+              SignUp
+            </button>
+          </Link>
         </div>
       </div>
     </div>
