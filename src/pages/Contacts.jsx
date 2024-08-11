@@ -2,7 +2,7 @@ import React from "react";
 
 const Contacts = () => {
   return (
-    <div className="bg-[#6040ffd6] mb-24">
+    <div className="bg-[#6040ffd6] mb-24 pt-14">
       <div className="px-4 max-w-6xl mx-auto">
         <h1
           data-aos="fade-up"

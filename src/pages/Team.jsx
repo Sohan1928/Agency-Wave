@@ -2,7 +2,7 @@ import React from "react";
 
 const Team = () => {
   return (
-    <div className="max-w-6xl mx-auto mb-20">
+    <div className="max-w-6xl mx-auto pt-12 mb-20">
       <div className="pt-8 pb-16">
         <h1
           data-aos="fade-up"

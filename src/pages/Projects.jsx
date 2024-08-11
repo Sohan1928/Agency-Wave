@@ -13,7 +13,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="max-w-6xl mx-auto pb-20 pt-10">
+    <div className="max-w-6xl mx-auto pt-20 pb-20">
       <div className="text-center">
         <h2
           data-aos="fade-up"

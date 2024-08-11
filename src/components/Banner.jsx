@@ -3,7 +3,7 @@ import "../index.css";
 
 const Banner = () => {
   return (
-    <div className="space-y-5 items-center my-4 md:flex">
+    <div className="space-y-5 items-center pt-14 my-4 md:flex">
       <div>
         <h2
           data-aos="fade-up-right"
